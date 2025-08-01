@@ -260,6 +260,7 @@ export default function NetworkingConsultancy() {
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/consultation"
+                  aria-label="Request Consultation"
                 >
                   Request Consultation
                 </RedButton>
@@ -639,6 +640,7 @@ export default function NetworkingConsultancy() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
               href="/contact"
+              aria-label="Schedule a Consultation"
             >
               Schedule a Network Assessment
             </RedButton>
@@ -687,6 +689,7 @@ export default function NetworkingConsultancy() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
               href="/consultation"
+              aria-label="Request Free Network Assessment"
             >
               Request Free Network Assessment
             </RedButton>
@@ -703,6 +706,8 @@ export default function NetworkingConsultancy() {
                   backgroundColor: "rgba(255,255,255,0.1)",
                 },
               }}
+              aria-label="Contact Our Networking Team"
+              href="/contact"
             >
               Contact Our Networking Team
             </Button>

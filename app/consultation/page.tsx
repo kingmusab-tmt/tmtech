@@ -116,6 +116,7 @@ export default function ConsultationRequest() {
               your consultation.
             </Typography>
             <Button
+              aria-label="Return to Home"
               variant="contained"
               size="large"
               href="/"

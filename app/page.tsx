@@ -235,6 +235,7 @@ export default function Home() {
                     variant="contained"
                     size="large"
                     onClick={() => scrollToSection("services")}
+                    aria-label="Explore Our Services"
                   >
                     Explore Services
                   </RedButton>
@@ -243,6 +244,7 @@ export default function Home() {
                     size="large"
                     onClick={() => router.push("/contact")}
                     sx={{ borderColor: "#d32f2f", color: "#d32f2f" }}
+                    aria-label="Get In Touch"
                   >
                     Get In Touch
                   </Button>
@@ -534,6 +536,7 @@ export default function Home() {
                           {service.description}
                         </Typography>
                         <Button
+                          aria-label="Learn More"
                           variant="outlined"
                           endIcon={<ArrowForwardIcon />}
                           sx={{
@@ -636,6 +639,7 @@ export default function Home() {
                 size="large"
                 endIcon={<SchoolIcon />}
                 onClick={() => router.push("/#training")}
+                aria-label="View All Training Programs"
               >
                 View All Training Programs
               </RedButton>
@@ -729,6 +733,7 @@ export default function Home() {
                           {service.description}
                         </Typography>
                         <Button
+                          aria-label="Explore Services"
                           variant="outlined"
                           endIcon={<ArrowForwardIcon />}
                           sx={{
@@ -795,6 +800,7 @@ export default function Home() {
               }}
             >
               <RedButton
+                aria-label="Get Started Today"
                 size="large"
                 variant="contained"
                 endIcon={<ArrowForwardIcon />}
@@ -804,6 +810,7 @@ export default function Home() {
                 Get Started Today
               </RedButton>
               <Button
+                aria-label="View Our Services"
                 variant="outlined"
                 size="large"
                 sx={{

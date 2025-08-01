@@ -236,6 +236,7 @@ export default function GraphicDesignTraining() {
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/training/register"
+                  aria-label="Register Now"
                 >
                   Register Now
                 </RedButton>
@@ -607,6 +608,7 @@ export default function GraphicDesignTraining() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
               href="/training/register"
+              aria-label="Enroll in Our Next Training Session"
             >
               Enroll in Our Next Training Session
             </RedButton>

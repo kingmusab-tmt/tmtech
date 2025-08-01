@@ -263,6 +263,7 @@ export default function WebDevelopmentServices() {
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/consultation"
+                  aria-label="Request Consultation"
                 >
                   Request Consultation
                 </RedButton>
@@ -725,6 +726,7 @@ export default function WebDevelopmentServices() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
               href="/contact"
+              aria-label="Schedule a Consultation"
             >
               Start Your Project Today
             </RedButton>
@@ -773,6 +775,7 @@ export default function WebDevelopmentServices() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
               href="/consultation"
+              aria-label="Request Free Consultation"
             >
               Request Free Consultation
             </RedButton>
@@ -790,6 +793,7 @@ export default function WebDevelopmentServices() {
                 },
               }}
               href="/web-development-services/portfolio"
+              aria-label="View Our Portfolio"
             >
               View Our Portfolio
             </Button>

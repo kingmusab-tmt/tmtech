@@ -264,7 +264,11 @@ export default function BusinessServices() {
                 precision and quality.
               </Typography>
               <Box sx={{ display: "flex", gap: 2, mt: 4, flexWrap: "wrap" }}>
-                <RedButton size="large" endIcon={<ArrowForwardIcon />}>
+                <RedButton
+                  aria-label="Request Service"
+                  size="large"
+                  endIcon={<ArrowForwardIcon />}
+                >
                   Request Service
                 </RedButton>
                 {/* <Button
@@ -699,9 +703,11 @@ export default function BusinessServices() {
 
           <Box sx={{ textAlign: "center", mt: 8 }}>
             <RedButton
+              aria-label="Submit Your Documents Today"
               size="large"
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
+              href="/document-submission"
             >
               Submit Your Documents Today
             </RedButton>
@@ -745,15 +751,17 @@ export default function BusinessServices() {
             }}
           >
             <RedButton
+              aria-label="Request Free Quote"
               size="large"
               variant="contained"
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
               href="/consultation"
             >
-              Request Free Quote
+              Request for Quotation
             </RedButton>
             <Button
+              aria-label="Contact Our Service Team"
               variant="outlined"
               size="large"
               sx={{
@@ -766,6 +774,7 @@ export default function BusinessServices() {
                   backgroundColor: "rgba(255,255,255,0.1)",
                 },
               }}
+              href="/contact"
             >
               Contact Our Service Team
             </Button>

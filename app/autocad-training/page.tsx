@@ -234,6 +234,7 @@ export default function AutoCADTraining() {
               </Typography>
               <Box sx={{ display: "flex", gap: 2, mt: 4, flexWrap: "wrap" }}>
                 <RedButton
+                  aria-label="Register Now"
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/training/register"
@@ -620,6 +621,7 @@ export default function AutoCADTraining() {
 
           <Box sx={{ textAlign: "center", mt: 8 }}>
             <RedButton
+              aria-label="Enroll in Our Next Training Session"
               size="large"
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
@@ -667,6 +669,7 @@ export default function AutoCADTraining() {
             }}
           >
             <RedButton
+              aria-label="Register Now"
               size="large"
               variant="contained"
               endIcon={<ArrowForwardIcon />}

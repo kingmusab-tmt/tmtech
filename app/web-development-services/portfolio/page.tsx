@@ -447,6 +447,7 @@ export default function WebDevelopmentPortfolio() {
                       href={item.website ?? item.webiste ?? "#"}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="View Case Study"
                     >
                       View Case Study
                     </Button>
@@ -511,6 +512,7 @@ export default function WebDevelopmentPortfolio() {
                 },
                 transition: "all 0.3s ease",
               }}
+              aria-label="Request Consultation"
             >
               Request Consultation
             </Button>
@@ -531,6 +533,7 @@ export default function WebDevelopmentPortfolio() {
                 },
                 transition: "all 0.3s ease",
               }}
+              aria-label="Contact Us"
             >
               Contact Us
             </Button>

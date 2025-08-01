@@ -366,6 +366,7 @@ export default function BecomeInstructor() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
               href="/instructor/apply"
+              aria-label="Apply to Join Our Team"
             >
               Apply to Join Our Team
             </RedButton>
@@ -405,6 +406,7 @@ export default function BecomeInstructor() {
             endIcon={<ArrowForwardIcon />}
             sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
             href="/instructor/apply"
+            aria-label="Start Your Application Today"
           >
             Start Your Application Today
           </RedButton>

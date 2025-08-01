@@ -103,6 +103,7 @@ export default function Contact() {
               24-48 hours.
             </Typography>
             <Button
+              aria-label="Return to Home"
               variant="contained"
               size="large"
               href="/"

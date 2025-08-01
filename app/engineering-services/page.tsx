@@ -260,6 +260,7 @@ export default function EngineeringServices() {
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/consultation"
+                  aria-label="Request Consultation"
                 >
                   Request Consultation
                 </RedButton>
@@ -638,8 +639,9 @@ export default function EngineeringServices() {
               size="large"
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
+              aria-label="Schedule a Consultation"
             >
-              Schedule a Free Consultation
+              Schedule a Consultation
             </RedButton>
           </Box>
         </Container>
@@ -686,10 +688,12 @@ export default function EngineeringServices() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
               href="/consultation"
+              aria-label="Request Site Assessment"
             >
-              Request Free Site Assessment
+              Request Site Assessment
             </RedButton>
             <Button
+              aria-label="Contact Our Engineering Team"
               variant="outlined"
               size="large"
               sx={{

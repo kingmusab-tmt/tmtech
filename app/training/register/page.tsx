@@ -277,6 +277,7 @@ export default function TrainingRegistration() {
                   background: "linear-gradient(45deg, #b71c1c, #e53935)",
                 },
               }}
+              aria-label="Return to Home"
             >
               Return to Home
             </Button>

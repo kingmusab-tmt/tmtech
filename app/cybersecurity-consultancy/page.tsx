@@ -261,6 +261,7 @@ export default function CybersecurityConsultancy() {
               </Typography>
               <Box sx={{ display: "flex", gap: 2, mt: 4, flexWrap: "wrap" }}>
                 <RedButton
+                  aria-label="Request Consultation"
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/consultation"

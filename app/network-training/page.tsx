@@ -218,6 +218,7 @@ export default function NetworkTraining() {
                   size="large"
                   endIcon={<ArrowForwardIcon />}
                   href="/training/register"
+                  aria-label="Register Now"
                 >
                   Register Now
                 </RedButton>
@@ -623,6 +624,7 @@ export default function NetworkTraining() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 6, py: 2 }}
               href="/training/register"
+              aria-label="Enroll in Our Next Training Session"
             >
               Enroll in Our Next Training Session
             </RedButton>
@@ -671,6 +673,7 @@ export default function NetworkTraining() {
               endIcon={<ArrowForwardIcon />}
               sx={{ px: 4, py: 1.5, fontSize: "1.2rem" }}
               href="/training/register"
+              aria-label="Enroll Now"
             >
               Register Now
             </RedButton>
