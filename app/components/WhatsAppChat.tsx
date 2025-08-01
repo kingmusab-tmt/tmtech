@@ -90,7 +90,7 @@ const WhatsAppChat = () => {
             <Box sx={{ display: "flex", alignItems: "center", gap: 1, mt: 2 }}>
               <WhatsAppIcon sx={{ color: "#25D366" }} />
               <Typography variant="body2" sx={{ fontWeight: 500 }}>
-                +234 812 345 6789
+                +234 8162552901
               </Typography>
             </Box>
 
