@@ -208,11 +208,11 @@ export default function DocumentSubmission() {
 
   const getFileIcon = (fileType: string) => {
     if (fileType.includes("image"))
-      return <ImageIcon sx={{ color: "#4caf50" }} />;
+      return <ImageIcon sx={{ color: "#af4c4cff" }} />;
     if (fileType.includes("pdf"))
       return <PictureAsPdfIcon sx={{ color: "#f44336" }} />;
     if (fileType.includes("word") || fileType.includes("text"))
-      return <TextFieldsIcon sx={{ color: "#2196f3" }} />;
+      return <TextFieldsIcon sx={{ color: "#f32121ff" }} />;
     return <DescriptionIcon sx={{ color: "#9e9e9e" }} />;
   };
 
@@ -240,7 +240,7 @@ export default function DocumentSubmission() {
       >
         <Container maxWidth="md">
           <Paper sx={{ p: 6, textAlign: "center" }}>
-            <CheckCircleIcon sx={{ fontSize: 64, color: "#4caf50", mb: 3 }} />
+            <CheckCircleIcon sx={{ fontSize: 64, color: "#af4c4cff", mb: 3 }} />
             <Typography variant="h3" gutterBottom sx={{ fontWeight: 600 }}>
               Documents Submitted Successfully!
             </Typography>
@@ -282,7 +282,7 @@ export default function DocumentSubmission() {
       {/* Hero Section */}
       <Box
         sx={{
-          background: "linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%)",
+          background: "linear-gradient(135deg, #b02727ff 0%, #a21f1fff 100%)",
           color: "white",
           py: { xs: 6, md: 10 },
         }}
@@ -315,7 +315,7 @@ export default function DocumentSubmission() {
             <Typography
               variant="h3"
               gutterBottom
-              sx={{ fontWeight: 600, color: "#9c27b0", mb: 4 }}
+              sx={{ fontWeight: 600, color: "#b02727ff", mb: 4 }}
             >
               Submit Your Documents
             </Typography>
@@ -402,13 +402,13 @@ export default function DocumentSubmission() {
                     sx={{
                       textAlign: "center",
                       py: 4,
-                      border: "2px dashed #9c27b0",
+                      border: "2px dashed #b02727ff",
                       borderRadius: 2,
                       mb: 2,
                     }}
                   >
                     <CloudUploadIcon
-                      sx={{ fontSize: 64, color: "#9c27b0", mb: 2 }}
+                      sx={{ fontSize: 64, color: "#b02727ff", mb: 2 }}
                     />
                     <Typography variant="h5" gutterBottom>
                       Upload Your Documents
@@ -433,11 +433,12 @@ export default function DocumentSubmission() {
                       onClick={triggerFileInput}
                       disabled={uploading}
                       sx={{
-                        background: "linear-gradient(45deg, #9c27b0, #7b1fa2)",
+                        background:
+                          "linear-gradient(45deg, #b02727ff, #a21f1fff)",
                         color: "white",
                         "&:hover": {
                           background:
-                            "linear-gradient(45deg, #6a1b9a, #4a148c)",
+                            "linear-gradient(45deg, #9a1b1bff, #8c1414ff)",
                         },
                       }}
                     >
@@ -504,7 +505,7 @@ export default function DocumentSubmission() {
                                     sx={{
                                       mt: 0.5,
                                       backgroundColor: "#f3e5f5",
-                                      color: "#7b1fa2",
+                                      color: "#a21f1fff",
                                       height: 20,
                                       "& .MuiChip-label": {
                                         fontSize: "0.6rem",
@@ -554,12 +555,14 @@ export default function DocumentSubmission() {
                     size="large"
                     disabled={uploading}
                     sx={{
-                      background: "linear-gradient(45deg, #9c27b0, #7b1fa2)",
+                      background:
+                        "linear-gradient(45deg, #b02727ff, #a21f1fff)",
                       color: "white",
                       py: 1.5,
                       fontSize: "1.1rem",
                       "&:hover": {
-                        background: "linear-gradient(45deg, #6a1b9a, #4a148c)",
+                        background:
+                          "linear-gradient(45deg, #9a1b1bff, #8c1414ff)",
                       },
                       "&:disabled": {
                         background: "#cccccc",
