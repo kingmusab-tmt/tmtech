@@ -670,22 +670,6 @@ export default function WebDevelopment() {
             >
               Register Now
             </RedButton>
-            {/* <Button
-              variant="outlined"
-              size="large"
-              sx={{
-                borderColor: "white",
-                color: "white",
-                px: 4,
-                py: 1.5,
-                fontSize: "1.2rem",
-                "&:hover": {
-                  backgroundColor: "rgba(255,255,255,0.1)",
-                },
-              }}
-            >
-              Request Custom Training
-            </Button> */}
           </Box>
           <Typography variant="body1" sx={{ mt: 3, opacity: 0.9 }}>
             Next Training Session: Starts{" "}
