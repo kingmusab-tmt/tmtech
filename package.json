@@ -16,7 +16,7 @@
     "@mui/material": "^7.2.0",
     "formidable": "^3.5.4",
     "framer-motion": "^12.23.12",
-    "next": "15.4.5",
+    "next": "15.4.10",
     "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.5",
     "react": "19.1.0",
