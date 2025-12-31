@@ -8,6 +8,8 @@ import theme from "./theme";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppChat from "./components/WhatsAppChat";
+import GoogleAnalytics from "./components/GoogleAnalytics";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +31,9 @@ export default function RootLayout({
           <CssBaseline />
           <Header />
           <main>{children}</main>
+          <Suspense fallback={null}>
+            <GoogleAnalytics />
+          </Suspense>
           <Footer />
           <WhatsAppChat />
         </ThemeProvider>
